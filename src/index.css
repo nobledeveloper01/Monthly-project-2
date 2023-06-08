@@ -49,15 +49,10 @@ button {
     cursor: pointer;
     display: flex;
     align-items: center;
-    background-color: #131111;
+    background-color: #ffffff;
     border-radius: 10px;
   }
 
-  
-  
-  .button-container:hover {
-    background-color: #F1F1F1;
-  }
   
   .btn {
     padding: 8px 16px;
@@ -66,6 +61,7 @@ button {
     background-color: transparent;
     border: none;
     padding: 5px 10px;
+    text-decoration: none;
     border-radius: 5px;
     cursor: pointer;
   }
@@ -76,12 +72,6 @@ button {
     border-radius: 10px;
     margin: 10px;
 }
-
-  
-  .switch-container {
-    display: flex;
-    align-items: center;
-  }
   
   @media (max-width: 400px) {
     .header {

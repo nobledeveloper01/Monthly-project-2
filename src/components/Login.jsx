@@ -20,11 +20,11 @@ export default function Login({ onLogin }) {
     const existingUsers = JSON.parse(localStorage.getItem("users")) || [];
     const user =existingUsers.find((user) => user.username === username );
     if (!user) {
-        setError("user already exist");
+        setError("user not exist");
         return;
     }
     if (user.password !== password){
-        setError("password is incorrect");
+        setError("Username or password is incorrect");
         return;
     
     }
